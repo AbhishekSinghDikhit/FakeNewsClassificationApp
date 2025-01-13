@@ -1,11 +1,11 @@
 
-import streamlit as st
+import streamlit as st # type: ignore
 import pandas as pd
 import pickle
 import re
-from nltk.corpus import stopwords
-from nltk.stem.porter import PorterStemmer
-from sklearn.feature_extraction.text import TfidfVectorizer
+from nltk.corpus import stopwords # type: ignore
+from nltk.stem.porter import PorterStemmer # type: ignore
+from sklearn.feature_extraction.text import TfidfVectorizer # type: ignore
 port_stem = PorterStemmer()
 vectorization = TfidfVectorizer()
 
