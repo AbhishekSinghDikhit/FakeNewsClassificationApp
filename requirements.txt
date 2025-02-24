@@ -1,7 +1,7 @@
 streamlit
 pandas
 numpy
-pickle
+pickle5
 nltk
 regex
 scikit-learn
